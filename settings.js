@@ -1,4 +1,4 @@
-exports.themeLocation = './';
+exports.themeLocation = './themes/fictional-university-theme/';
 exports.urlToPreview = 'http://fictional-university.local';
 
 // If you're using Local by Flywheel you will
