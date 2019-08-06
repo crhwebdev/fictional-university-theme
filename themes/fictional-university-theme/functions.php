@@ -25,9 +25,4 @@
   //add an action to setup stuff after theme is loaded
   add_action('after_setup_theme', 'university_features');
 
-  
-
-  //add custom event types to theme
-  add_action('init', 'university_post_types');
-
 ?>
