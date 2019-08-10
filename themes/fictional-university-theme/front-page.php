@@ -41,6 +41,8 @@
           <?php
           }
 
+          wp_reset_postdata();
+
         ?>
                                 
         <p class="t-center no-margin"><a href="#" class="btn btn--blue">View All Events</a></p>
