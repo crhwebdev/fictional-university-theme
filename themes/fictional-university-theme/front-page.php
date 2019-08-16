@@ -30,7 +30,13 @@
              $homepageEvents->the_post(); ?>
             <div class="event-summary">
               <a class="event-summary__date t-center" href="#">
-                <span class="event-summary__month">Mar</span>
+                <span class="event-summary__month"><?php  
+                  $date = get_field('event_date');
+                  $eventDate = new DateTime($date);
+                  echo $eventDate->format('M');
+                  
+                  
+                ?></span>
                 <span class="event-summary__day">25</span>  
               </a>
               <div class="event-summary__content">
