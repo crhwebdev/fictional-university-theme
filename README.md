@@ -23,5 +23,6 @@ This folder contains php files that are loaded in automatically at startup by wo
 - Field Type: Date Picker
 - Required? Yes
 - Location Rules: Post Type is equal to Events
+- Return Format: F j, Y (third option)
 
 3. Save the custom field by clicking on 'Publish'
